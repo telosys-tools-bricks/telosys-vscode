@@ -10,7 +10,8 @@ It replaces the other extension for version 3.
 
 ### Features for Telosys bundles of templates
 - ".vm" files : syntax coloration 
-- ".vm" files : auto-completion based on snippets
+- ".vm" files : auto-completion based on snippets 
+- "templates.cfg" (bundle) : syntax coloration 
 
 ### Icons for all Telosys standard files and folders
    

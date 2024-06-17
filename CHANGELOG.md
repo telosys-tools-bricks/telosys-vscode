@@ -8,3 +8,7 @@
 - 2024, March 
 - Icons added for Telosys files and folders
 
+## [Version 4.1.2]
+- 2024, June 
+- Syntax coloration for bundle file "templates.cfg"
+

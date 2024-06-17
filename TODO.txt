@@ -1,7 +1,7 @@
 
 grammar (syntax coloration) : 
  - Fixed color to avoid changes due to current Color Theme  
- - Basic grammar for "templates.cfg" 
+ - [DONE] Basic grammar for "templates.cfg" 
 
 snippet :
  - For all Telosys objects in .vm files 

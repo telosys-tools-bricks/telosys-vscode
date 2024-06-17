@@ -2,7 +2,7 @@
     "name": "telosys-vscode",
     "displayName": "Telosys-VSCode",
     "description": "New VSCode extension for Telosys ver 4+",
-    "version": "4.1.1",
+    "version": "4.1.2",
     "publisher": "telosys",
     "homepage": "https://www.telosys.org/",
     "repository": {
@@ -32,6 +32,12 @@
                 "aliases": ["telosys.vm"],
                 "extensions": [".vm"],
                 "configuration": "./vm/vm-configuration.json"
+            },
+            {
+                "id": "telosys.templates_cfg",
+                "aliases": ["telosys.templates_cfg"],
+                "extensions": ["templates.cfg"],
+                "configuration": "./templates_cfg/templates_cfg-configuration.json"
             } 
         ],
 
@@ -45,6 +51,11 @@
                 "language": "telosys.vm",
                 "scopeName": "source.telosys.vm",
                 "path": "./vm/vm-grammar.json"
+            },
+            {
+                "language": "telosys.templates_cfg",
+                "scopeName": "source.telosys.templates_cfg",
+                "path": "./templates_cfg/templates_cfg-grammar.json"
             }
         ],
 

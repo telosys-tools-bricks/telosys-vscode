@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "telosys.templates_cfg",
+	"scopeName": "source.telosys.templates_cfg",
+	"patterns": [
+		{ "include": "#comments" },
+		{ "include": "#variables" },
+		{ "include": "#separator" }
+	],
+	"repository": {
+
+		"comments": {
+			"patterns": [{ 
+				"match": "#.+|#",
+				"name": "comment.line.number-sign.telosys.templates_cfg.comment"
+			}]
+		},
+
+		"variables": {
+			"patterns": [{
+				"match": "(\\${\\w+})",
+				"name": "string.meta.telosys.templates_cfg.var"
+			}]
+		},
+
+		"separator": {
+			"patterns": [{
+				"match": "(;)",
+				"name": "keyword.other.telosys.templates_cfg.separator"
+			}]
+		}
+	}
+}
