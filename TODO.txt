@@ -1,4 +1,5 @@
 
+
 grammar (syntax coloration) : 
  - Fixed color to avoid changes due to current Color Theme  
  - [DONE] Basic grammar for "templates.cfg" 
