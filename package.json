@@ -7,7 +7,7 @@
     "homepage": "https://www.telosys.org/",
     "repository": {
        "type": "git",
-       "url": "https://github.com/telosys-tools-bricks/telosys-vscode-extension.git"
+       "url": "https://github.com/telosys-tools-bricks/telosys-vscode.git"
     },    
     "engines": {
         "vscode": "^1.30.0"
